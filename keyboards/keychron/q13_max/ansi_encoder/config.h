@@ -15,14 +15,13 @@
  */
 
 #pragma once
-
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 2
 #    define RGB_MATRIX_LED_COUNT 106
-
 #    define SPI_SCK_PIN A5
 #    define SPI_MISO_PIN A6
+#    define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 #    define SPI_MOSI_PIN A7
 
 #    define DRIVER_CS_PINS \
